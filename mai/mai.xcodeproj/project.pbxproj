@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5019DF29EE2C2E00DE1F28 /* maiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */; };
+		AD5019E129EE2C2E00DE1F28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019E029EE2C2E00DE1F28 /* ContentView.swift */; };
+		AD5019E329EE2C3000DE1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5019E229EE2C3000DE1F28 /* Assets.xcassets */; };
+		AD5019E629EE2C3000DE1F28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5019E529EE2C3000DE1F28 /* Preview Assets.xcassets */; };
+		AD5019F029EE2C3000DE1F28 /* maiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019EF29EE2C3000DE1F28 /* maiTests.swift */; };
+		AD5019FA29EE2C3000DE1F28 /* maiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019F929EE2C3000DE1F28 /* maiUITests.swift */; };
+		AD5019FC29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019FB29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift */; };
+		AD501A0929EE4E7800DE1F28 /* Extentions+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */; };
+		AD501A0B29EE7D2800DE1F28 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD501A0A29EE7D2800DE1F28 /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD5019EC29EE2C3000DE1F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5019D329EE2C2E00DE1F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5019DA29EE2C2E00DE1F28;
+			remoteInfo = mai;
+		};
+		AD5019F629EE2C3000DE1F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5019D329EE2C2E00DE1F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5019DA29EE2C2E00DE1F28;
+			remoteInfo = mai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5019DB29EE2C2E00DE1F28 /* mai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiApp.swift; sourceTree = "<group>"; };
+		AD5019E029EE2C2E00DE1F28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD5019E229EE2C3000DE1F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5019E529EE2C3000DE1F28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD5019EB29EE2C3000DE1F28 /* maiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5019EF29EE2C3000DE1F28 /* maiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiTests.swift; sourceTree = "<group>"; };
+		AD5019F529EE2C3000DE1F28 /* maiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5019F929EE2C3000DE1F28 /* maiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiUITests.swift; sourceTree = "<group>"; };
+		AD5019FB29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions+Color.swift"; sourceTree = "<group>"; };
+		AD501A0A29EE7D2800DE1F28 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5019D829EE2C2E00DE1F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019E829EE2C3000DE1F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019F229EE2C3000DE1F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5019D229EE2C2E00DE1F28 = {
+			isa = PBXGroup;
+			children = (
+				AD5019DD29EE2C2E00DE1F28 /* mai */,
+				AD5019EE29EE2C3000DE1F28 /* maiTests */,
+				AD5019F829EE2C3000DE1F28 /* maiUITests */,
+				AD5019DC29EE2C2E00DE1F28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5019DC29EE2C2E00DE1F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5019DB29EE2C2E00DE1F28 /* mai.app */,
+				AD5019EB29EE2C3000DE1F28 /* maiTests.xctest */,
+				AD5019F529EE2C3000DE1F28 /* maiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5019DD29EE2C2E00DE1F28 /* mai */ = {
+			isa = PBXGroup;
+			children = (
+				AD501A0A29EE7D2800DE1F28 /* SplashView.swift */,
+				AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */,
+				AD5019E029EE2C2E00DE1F28 /* ContentView.swift */,
+				AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */,
+				AD5019E229EE2C3000DE1F28 /* Assets.xcassets */,
+				AD5019E429EE2C3000DE1F28 /* Preview Content */,
+			);
+			path = mai;
+			sourceTree = "<group>";
+		};
+		AD5019E429EE2C3000DE1F28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD5019E529EE2C3000DE1F28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD5019EE29EE2C3000DE1F28 /* maiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5019EF29EE2C3000DE1F28 /* maiTests.swift */,
+			);
+			path = maiTests;
+			sourceTree = "<group>";
+		};
+		AD5019F829EE2C3000DE1F28 /* maiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5019F929EE2C3000DE1F28 /* maiUITests.swift */,
+				AD5019FB29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift */,
+			);
+			path = maiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5019DA29EE2C2E00DE1F28 /* mai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5019FF29EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "mai" */;
+			buildPhases = (
+				AD5019D729EE2C2E00DE1F28 /* Sources */,
+				AD5019D829EE2C2E00DE1F28 /* Frameworks */,
+				AD5019D929EE2C2E00DE1F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mai;
+			productName = mai;
+			productReference = AD5019DB29EE2C2E00DE1F28 /* mai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5019EA29EE2C3000DE1F28 /* maiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD501A0229EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "maiTests" */;
+			buildPhases = (
+				AD5019E729EE2C3000DE1F28 /* Sources */,
+				AD5019E829EE2C3000DE1F28 /* Frameworks */,
+				AD5019E929EE2C3000DE1F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5019ED29EE2C3000DE1F28 /* PBXTargetDependency */,
+			);
+			name = maiTests;
+			productName = maiTests;
+			productReference = AD5019EB29EE2C3000DE1F28 /* maiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD5019F429EE2C3000DE1F28 /* maiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD501A0529EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "maiUITests" */;
+			buildPhases = (
+				AD5019F129EE2C3000DE1F28 /* Sources */,
+				AD5019F229EE2C3000DE1F28 /* Frameworks */,
+				AD5019F329EE2C3000DE1F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5019F729EE2C3000DE1F28 /* PBXTargetDependency */,
+			);
+			name = maiUITests;
+			productName = maiUITests;
+			productReference = AD5019F529EE2C3000DE1F28 /* maiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5019D329EE2C2E00DE1F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD5019DA29EE2C2E00DE1F28 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD5019EA29EE2C3000DE1F28 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD5019DA29EE2C2E00DE1F28;
+					};
+					AD5019F429EE2C3000DE1F28 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD5019DA29EE2C2E00DE1F28;
+					};
+				};
+			};
+			buildConfigurationList = AD5019D629EE2C2E00DE1F28 /* Build configuration list for PBXProject "mai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5019D229EE2C2E00DE1F28;
+			productRefGroup = AD5019DC29EE2C2E00DE1F28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5019DA29EE2C2E00DE1F28 /* mai */,
+				AD5019EA29EE2C3000DE1F28 /* maiTests */,
+				AD5019F429EE2C3000DE1F28 /* maiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5019D929EE2C2E00DE1F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5019E629EE2C3000DE1F28 /* Preview Assets.xcassets in Resources */,
+				AD5019E329EE2C3000DE1F28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019E929EE2C3000DE1F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019F329EE2C3000DE1F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5019D729EE2C2E00DE1F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD501A0929EE4E7800DE1F28 /* Extentions+Color.swift in Sources */,
+				AD501A0B29EE7D2800DE1F28 /* SplashView.swift in Sources */,
+				AD5019E129EE2C2E00DE1F28 /* ContentView.swift in Sources */,
+				AD5019DF29EE2C2E00DE1F28 /* maiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019E729EE2C3000DE1F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5019F029EE2C3000DE1F28 /* maiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5019F129EE2C3000DE1F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5019FC29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift in Sources */,
+				AD5019FA29EE2C3000DE1F28 /* maiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD5019ED29EE2C3000DE1F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5019DA29EE2C2E00DE1F28 /* mai */;
+			targetProxy = AD5019EC29EE2C3000DE1F28 /* PBXContainerItemProxy */;
+		};
+		AD5019F729EE2C3000DE1F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5019DA29EE2C2E00DE1F28 /* mai */;
+			targetProxy = AD5019F629EE2C3000DE1F28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD5019FD29EE2C3000DE1F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5019FE29EE2C3000DE1F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD501A0029EE2C3000DE1F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mai/Preview Content\"";
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.mai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD501A0129EE2C3000DE1F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mai/Preview Content\"";
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.mai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD501A0329EE2C3000DE1F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.maiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mai";
+			};
+			name = Debug;
+		};
+		AD501A0429EE2C3000DE1F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.maiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mai";
+			};
+			name = Release;
+		};
+		AD501A0629EE2C3000DE1F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.maiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mai;
+			};
+			name = Debug;
+		};
+		AD501A0729EE2C3000DE1F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ARYC9M32DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkeisoft.maiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5019D629EE2C2E00DE1F28 /* Build configuration list for PBXProject "mai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5019FD29EE2C3000DE1F28 /* Debug */,
+				AD5019FE29EE2C3000DE1F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5019FF29EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "mai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD501A0029EE2C3000DE1F28 /* Debug */,
+				AD501A0129EE2C3000DE1F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD501A0229EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "maiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD501A0329EE2C3000DE1F28 /* Debug */,
+				AD501A0429EE2C3000DE1F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD501A0529EE2C3000DE1F28 /* Build configuration list for PBXNativeTarget "maiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD501A0629EE2C3000DE1F28 /* Debug */,
+				AD501A0729EE2C3000DE1F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5019D329EE2C2E00DE1F28 /* Project object */;
+}
