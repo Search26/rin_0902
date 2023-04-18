@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var isUnlocked = false
     let termLink = try! AttributedString(markdown: "[Terms and Conditions](https://duckduckgo.com)")
     
+    let policyLink =  try! AttributedString(markdown: "[Privacy Policy](https://duckduckgo.com)")
     
     var body: some View {
         ZStack {
