@@ -16,6 +16,9 @@
 		AD5019FC29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019FB29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift */; };
 		AD501A0929EE4E7800DE1F28 /* Extentions+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */; };
 		AD501A0B29EE7D2800DE1F28 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD501A0A29EE7D2800DE1F28 /* SplashView.swift */; };
+		AD86455929EF856F008AAFC6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86455829EF856F008AAFC6 /* HomeView.swift */; };
+		AD86455B29EFC376008AAFC6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86455A29EFC376008AAFC6 /* Message.swift */; };
+		AD86455D29EFC741008AAFC6 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86455C29EFC741008AAFC6 /* MessageRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		AD5019FB29EE2C3000DE1F28 /* maiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions+Color.swift"; sourceTree = "<group>"; };
 		AD501A0A29EE7D2800DE1F28 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		AD86455829EF856F008AAFC6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AD86455A29EFC376008AAFC6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AD86455C29EFC741008AAFC6 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,8 @@
 		AD5019D229EE2C2E00DE1F28 = {
 			isa = PBXGroup;
 			children = (
+				AD86455A29EFC376008AAFC6 /* Message.swift */,
+				AD86455C29EFC741008AAFC6 /* MessageRow.swift */,
 				AD5019DD29EE2C2E00DE1F28 /* mai */,
 				AD5019EE29EE2C3000DE1F28 /* maiTests */,
 				AD5019F829EE2C3000DE1F28 /* maiUITests */,
@@ -99,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				AD501A0A29EE7D2800DE1F28 /* SplashView.swift */,
+				AD86455829EF856F008AAFC6 /* HomeView.swift */,
 				AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */,
 				AD5019E029EE2C2E00DE1F28 /* ContentView.swift */,
 				AD501A0829EE4E7800DE1F28 /* Extentions+Color.swift */,
@@ -266,6 +275,9 @@
 				AD501A0929EE4E7800DE1F28 /* Extentions+Color.swift in Sources */,
 				AD501A0B29EE7D2800DE1F28 /* SplashView.swift in Sources */,
 				AD5019E129EE2C2E00DE1F28 /* ContentView.swift in Sources */,
+				AD86455B29EFC376008AAFC6 /* Message.swift in Sources */,
+				AD86455D29EFC741008AAFC6 /* MessageRow.swift in Sources */,
+				AD86455929EF856F008AAFC6 /* HomeView.swift in Sources */,
 				AD5019DF29EE2C2E00DE1F28 /* maiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
