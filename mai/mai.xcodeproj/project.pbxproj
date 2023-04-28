@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD173BEE29F7D55300C5FC94 /* MemberRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD173BED29F7D55300C5FC94 /* MemberRow.swift */; };
 		AD5019DF29EE2C2E00DE1F28 /* maiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */; };
 		AD5019E129EE2C2E00DE1F28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5019E029EE2C2E00DE1F28 /* ContentView.swift */; };
 		AD5019E329EE2C3000DE1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5019E229EE2C3000DE1F28 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD173BED29F7D55300C5FC94 /* MemberRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRow.swift; sourceTree = "<group>"; };
 		AD5019DB29EE2C2E00DE1F28 /* mai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5019DE29EE2C2E00DE1F28 /* maiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maiApp.swift; sourceTree = "<group>"; };
 		AD5019E029EE2C2E00DE1F28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				AD86455A29EFC376008AAFC6 /* Message.swift */,
 				AD86455C29EFC741008AAFC6 /* MessageRow.swift */,
+				AD173BED29F7D55300C5FC94 /* MemberRow.swift */,
 				AD5019DD29EE2C2E00DE1F28 /* mai */,
 				AD5019EE29EE2C3000DE1F28 /* maiTests */,
 				AD5019F829EE2C3000DE1F28 /* maiUITests */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD173BEE29F7D55300C5FC94 /* MemberRow.swift in Sources */,
 				AD501A0929EE4E7800DE1F28 /* Extentions+Color.swift in Sources */,
 				AD501A0B29EE7D2800DE1F28 /* SplashView.swift in Sources */,
 				AD5019E129EE2C2E00DE1F28 /* ContentView.swift in Sources */,

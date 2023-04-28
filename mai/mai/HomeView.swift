@@ -9,6 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     
+    let message = Message(id: 1, name: "hihi", text: "haha", time: 12345)
+    var listUser: [Message] = []
+    
+    init() {
+        self.listUser = [message, message, message, message, message, message, message, message, message, message, message, message, message, message, message, message, message]
+    }
+    
     var body: some View {
         ZStack {
             Color(hex: "#50924E")
@@ -48,7 +55,19 @@ struct HomeView: View {
                     }.cornerRadius(20)
                     Spacer()
                 }.padding(EdgeInsets(top: 20, leading: 0, bottom: 15, trailing: 0))
-                Spacer()
+                
+                NavigationView {
+                    
+                    List(listUser) { user in
+                        MemberRow(message: user)
+                    }
+                    
+                    List {
+                        ForEach(listUser) { user in
+                            MessageRow(message: user)
+                        }
+                    }.listStyle(.grouped)
+                }
             }
         }
     }
